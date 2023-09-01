@@ -1,0 +1,12 @@
+# Crie um progama que mostra na tela o tipo primitivo e todas as informações possíveis sobre ela (print(n.isalpha())).
+n = input('Digite algo: ')
+print('Qual é o tipo primitivo? ', type(n))
+print('Só tem letra? ', n.isalpha())
+print('Só tem número inteiro? ', n.isnumeric())
+print('Só tem número e letra? ', n.isalnum())
+print('Só tem letras maiúsculas? ', n.isupper())
+print('Só tem letras minúsculas? ', n.islower())
+print('Só tem espaço? ', n.isspace())
+print('Pode ser impresso? ', n.isprintable())
+print('O texto tá em formato título? ', n.istitle())
+print('É um identificador válido no python? ', n.isidentifier())
