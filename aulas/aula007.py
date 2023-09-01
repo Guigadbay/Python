@@ -4,7 +4,7 @@ print('Oi'*5)
 print('='*20)
 
 # Tem como usar o codigo da substituição para difinir quantidade de caracteres que a resposta deve ter colocando {:20}, nesse caso são 20 caracteres.
-# Se for digitado algo com menos caracteres que o solicitado, o programa preenche com espaços vazios e podemos escolher onde no espaço a digitação ficara ^ Centralizado, > Direita e < Esquerda. 
+# Se for digitado algo com menos caracteres que o solicitado, o programa preenche com espaços vazios e podemos escolher onde no espaço a digitação ficara ^ Centralizado, > Direita e < Esquerda.
 # Ex1
 n = 'Prazer!'
 print('{:20}'.format(n))
@@ -33,25 +33,9 @@ print('A soma é {}, o produto {} e a divisão {}.'.format(s, m, d))
 print('A divisão inteira é {} e o resto da divisão {}.'.format(di, r))
 print('A potenciação é {}, a radiciação quadrática do primeiro número {} e a radiciação cúbica do segundo número {:.3f}.'.format(p, rq1, rq2))
 
-# \n : quebra a linha. 
+# \n : quebra a linha.
 # end= ' ' : define que não é para quebra a linha no final em relação ao proximo print (junta os dois prints).
-print('Hoje é segunda feira.', end = ' ')
+print('Hoje é segunda feira.', end=' ')
 print('Vou ir a academia.')
 print('2 + 2 é \n')
 print('4')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
