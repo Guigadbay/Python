@@ -1,15 +1,19 @@
 # 005) Faça um programa que leia um número inteiro e mostre na tela seu sucessor e antecessor.
 n = int(input('Digite um número inteiro: '))
 a = n + 1
-b = n - 1 
+b = n - 1
 print('O sucessor do seu numero escolhido é {} e o antecessor {}'. format(a, b))
+
+# 005) Faça de outra maneiro um programa que leia um número inteiro e mostre na tela seu sucessor e antecessor.
+n = int(input('Digite um número inteiro: '))
+print('O sucessor do seu numero escolhido é {} e o antecessor {}'. format((n+1), (n-1)))
 
 # 006) Faça um programa que leia um número e mostre o seu dobro, triplo e raiz quadratica.
 n = int(input('Digite um número inteiro: '))
 a = n * 2
 b = n * 3
 c = int(n ** (1 / 2))
-print('O dobro do seu número escolhido é {}, o tripo {} e a raiz quadrada {}.'.format(a, b, c))
+print('O dobro do seu número escolhido é {}, o triplo {} e a raiz quadrada {:.2f}.'.format(a, b, c))
 
 # 007) Faça um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
 a = float(input('Digite a sua pimeira nota: '))
@@ -34,7 +38,25 @@ g = n * 7
 h = n * 8
 i = n * 9
 j = n * 10
-print('{} * 1 = {}\n {} * 2 = {}\n {} * 3 = {}\n {} * 4 = {}\n {} * 5 = {}\n {} * 6 = {}\n {} * 7 = {}\n {} * 8 = {}\n {} * 9 = {}\n {} * 10 = {}'.format(n, a, n, b, n, c, n, d, n, e, n, f, n, g, n, h, n, i, n, j))
+print('-' * 13)
+print('{} * 1 = {}\n {} * 2 = {}\n {} * 3 = {}\n {} * 4 = {}\n {} * 5 = {}\n {} * 6 = {}\n {} * 7 = {}\n {} * 8 = {}\n {} * 9 = {}\n {} * 10 = {}'.format(n,
+      a, n, b, n, c, n, d, n, e, n, f, n, g, n, h, n, i, n, j))
+print('-' * 13)
+
+# 009) Faça de outra maneira um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
+n = int(input('Digite um número inteio: '))
+print('-' * 13)
+print('{} * {:2} = {}'.format(n, 1, n))
+print('{} * {:2} = {}'.format(n, 2, n*2))
+print('{} * {:2} = {}'.format(n, 3, n*3))
+print('{} * {:2} = {}'.format(n, 4, n*4))
+print('{} * {:2} = {}'.format(n, 5, n*5))
+print('{} * {:2} = {}'.format(n, 6, n*6))
+print('{} * {:2} = {}'.format(n, 7, n*7))
+print('{} * {:2} = {}'.format(n, 8, n*8))
+print('{} * {:2} = {}'.format(n, 9, n*9))
+print('{} * {:2} = {}'.format(n, 10, n*10))
+print('-' * 13)
 
 # 010) Faça um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar. Considere 1 dólar = 3.27 reais.
 n = float(input('Digite quanto dinehrio você tem em rais na carteira: '))
@@ -68,8 +90,3 @@ km = float(input('Quantos km você percorreu com o carro? '))
 d = int(input('Quantos dias você alugou o carro: '))
 total = (km * 0.15) + (d * 60)
 print('O total a pagar pelo aluguel do carro é: {}'.format(total))
-
-
-
-
-
